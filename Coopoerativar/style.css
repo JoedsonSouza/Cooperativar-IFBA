@@ -1,0 +1,86 @@
+body{
+    background-color: #F2F4F7;
+}
+.banner-destaque{
+    display: flex;
+    align-items: center;    /*POSICIONA OS ELEMENTOS NO CENTRO DO BANNER*/
+    height: 90vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/fotos-gratis/agricultor-agronomo-senior-trabalhador-no-campo-de-soja-verificando-as-colheitas-antes-da-colheita_342744-1260.jpg?w=1060&t=st=1675728924~exp=1675729524~hmac=8a6272b678bec3302c442db5bd983d3fc6abb2b9088a68bd3c93318cd0194495');
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /*DISTRIBUI OS ELEMENTOS EM FORMA DE COLUNA, PARA ALINHAR O H1, H2 E BUTTON*/
+}
+.subcontainer{
+    width: 67vw;            /*CONTEÚDO OCUPA 67% DA LARGURA DA TELA*/
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.banner-destaque h1{
+    color: white;
+    font-size: 40px;
+}
+.banner-destaque h2{
+    color: white;
+    font-size: 18px;
+}
+.botao{
+    width: 175px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #58B809;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;     /*Cada elemento em uma linha*/
+    align-items: center;        /*Elementos posicionados ao centro da linha*/
+}
+.flex > h2{
+    text-align: center;
+}
+
+.citys{
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d8dbe0;
+    cursor: pointer;
+    margin: 5px;
+}
+nav input[type="button"].all-citys{
+    background-color: #58B809;
+    color: white;
+}
+nav input.citys:hover{
+    background-color: #3a3b40;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 920px){
+
+    @media (max-width: 480px){
+        .botao{
+            width: 100%;
+        }
+    }
+}
