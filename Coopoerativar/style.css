@@ -97,6 +97,10 @@ nav input.citys:hover{
     align-items: center;
 }
 
+footer{
+    background-color: #19272e;
+}
+
 @media (max-width: 920px){
 
     @media (max-width: 480px){

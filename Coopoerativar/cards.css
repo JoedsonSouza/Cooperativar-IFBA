@@ -13,7 +13,7 @@ body{
 /*.content-cards serve para agrupar todas as cards e ajudará
 a controlar o comportamento delas*/
 .content .content-cards {       /*se aplica apenas as classes content-cards que possuem a classe content com pai*/
-    width: 100%;
+    width: 67vw;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;               /*espaçamento entre linhas e colunas*/
