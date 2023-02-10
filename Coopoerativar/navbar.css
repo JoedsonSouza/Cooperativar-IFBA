@@ -43,14 +43,19 @@ nav ul li a.active,
 nav ul li a:hover{
     color: #58B809;
 }
-
-nav .menu-btn i{
+nav .menu-btn-mobile i{
     color: #FFE103;
     cursor: pointer;
     display: none;
 }
+
+.menu-btn-mobile{
+    position: absolute;
+    right: 48px;
+    top: 17px;
+}
 @media (max-width: 920px){
-    nav .menu-btn i{
+    nav .menu-btn-mobile i{
         display: block;
     }
     nav i.open{

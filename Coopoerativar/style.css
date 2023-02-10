@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
 body{
     background-color: #F2F4F7;
 }
@@ -12,14 +21,25 @@ body{
     margin-bottom: 70px;
 }
 .container{
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column; /*DISTRIBUI OS ELEMENTOS EM FORMA DE COLUNA, PARA ALINHAR O H1, H2 E BUTTON*/
+    padding: 0em 6em 0em 6em;
+    align-items: flex-start;
 }
 .subcontainer{
     width: 67vw;            /*CONTEÚDO OCUPA 67% DA LARGURA DA TELA*/
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
     padding-top: 15px;
     margin-top: 10px;
+    height: auto;
+}
+
+.flex .subcontainer{
+    justify-content: center;
 }
 
 .banner-destaque h1{
@@ -46,6 +66,7 @@ body{
     justify-content: center;
     flex-direction: column;     /*Cada elemento em uma linha*/
     align-items: center;        /*Elementos posicionados ao centro da linha*/
+    margin-bottom: 2em;
 }
 .flex > h2{
     text-align: center;
