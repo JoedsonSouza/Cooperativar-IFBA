@@ -16,7 +16,7 @@ body{
     height: 90vh;
     width: auto;
     background-repeat: no-repeat;
-    background-image: url('https://img.freepik.com/fotos-gratis/agricultor-agronomo-senior-trabalhador-no-campo-de-soja-verificando-as-colheitas-antes-da-colheita_342744-1260.jpg?w=1060&t=st=1675728924~exp=1675729524~hmac=8a6272b678bec3302c442db5bd983d3fc6abb2b9088a68bd3c93318cd0194495');
+    background-image: url('https://terramagna.com.br/wp-content/uploads/2023/01/Trator-campo-Agricultura-tradicional-e-moderna.jpg');
     background-size: cover;
     margin-bottom: 70px;
 }
@@ -27,6 +27,13 @@ body{
     flex-direction: column; /*DISTRIBUI OS ELEMENTOS EM FORMA DE COLUNA, PARA ALINHAR O H1, H2 E BUTTON*/
     padding: 0em 6em 0em 6em;
     align-items: flex-start;
+}
+.container h2{
+    color: white;
+}
+.container button a{
+    text-decoration: none;
+    color: white;
 }
 .subcontainer{
     width: 67vw;            /*CONTEÚDO OCUPA 67% DA LARGURA DA TELA*/
@@ -93,12 +100,17 @@ nav input.citys:hover{
 
 .flex-row{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-row{
+    padding-top: 2.5vh;
 }
 
 footer{
     background-color: #19272e;
+    color: white;
+    height: 7vh;
 }
 
 @media (max-width: 920px){
